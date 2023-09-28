@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         actions: [IconButton(onPressed: signUserOut, icon: Icon(Icons.logout))],
       ),
       body: Center(
-        child: Text('Logged In as'),
+        child: Text('Logged In'),
       ),
     );
   }
