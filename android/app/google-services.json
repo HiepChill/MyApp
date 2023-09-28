@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435692114668",
+    "project_id": "appauthen-93de6",
+    "storage_bucket": "appauthen-93de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435692114668:android:ca2b3a87ca880e0f2f4bc9",
+        "android_client_info": {
+          "package_name": "com.example.food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7lQm-bNg6t9Svd2j1tQRUDpk9NGDTLpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
