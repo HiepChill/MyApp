@@ -21,6 +21,9 @@ class MyTextFeild extends StatelessWidget {
         controller: controller,
         obscureText: obscureText,
         decoration: InputDecoration(
+            focusColor: Colors.transparent,
+            focusedBorder:
+                OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
             prefixIcon: prefixIcon,
             enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.grey.shade400)),

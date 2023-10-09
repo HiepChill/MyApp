@@ -7,6 +7,7 @@ import 'package:food_app/components/login_components/logo.dart';
 import 'package:food_app/components/login_components/my_textfield.dart';
 import 'package:food_app/services/auth_services.dart';
 import 'package:food_app/themes/const.dart';
+import 'package:lottie/lottie.dart';
 
 class RegisterPage extends StatefulWidget {
   final Function()? onTap;
@@ -119,9 +120,8 @@ class _RegisterPageState extends State<RegisterPage> {
                     const SizedBox(
                       height: 50,
                     ),
-                    Image.asset(
-                      'assets/images/donut.png',
-                      height: 100,
+                    Lottie.network(
+                      'https://lottie.host/711f5c69-d33a-4d58-b6ee-fa9ee84474e1/8GB9h52AEg.json',
                     ),
                     const SizedBox(
                       height: 30,

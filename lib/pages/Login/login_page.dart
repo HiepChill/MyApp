@@ -7,6 +7,7 @@ import 'package:food_app/components/login_components/logo.dart';
 import 'package:food_app/components/login_components/my_textfield.dart';
 import 'package:food_app/services/auth_services.dart';
 import 'package:food_app/themes/const.dart';
+import 'package:lottie/lottie.dart';
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;
@@ -28,8 +29,9 @@ class _LoginPageState extends State<LoginPage> {
     showDialog(
       context: context,
       builder: (context) {
-        return const Center(
-          child: CircularProgressIndicator(),
+        return Center(
+          child: Lottie.network(
+              'https://lottie.host/71a37190-cd8a-49c9-a646-cfd071c3e70b/YLahmHntVH.json'),
         );
       },
     );
@@ -114,10 +116,9 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(
                       height: 50,
                     ),
-                    Image.asset(
-                      'assets/images/donut.png',
-                      height: 100,
-                    ),
+                    Lottie.network(
+                        'https://lottie.host/55411935-5017-457e-8534-e5b625b285fd/ZnS67AE0ES.json',
+                        height: 150),
                     const SizedBox(
                       height: 30,
                     ),
