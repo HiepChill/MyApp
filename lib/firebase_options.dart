@@ -38,44 +38,5 @@ class DefaultFirebaseOptions {
         );
       default:
         throw UnsupportedError(
-          'DefaultFirebaseOptions are not supported for this platform.',
-        );
-    }
-  }
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBdlDbdEnqTMDFe7TinP6rvSONoepQ0ajg',
-    appId: '1:435692114668:web:fbd5936f82ce5a162f4bc9',
-    messagingSenderId: '435692114668',
-    projectId: 'appauthen-93de6',
-    authDomain: 'appauthen-93de6.firebaseapp.com',
-    storageBucket: 'appauthen-93de6.appspot.com',
-    measurementId: 'G-TTE1KE86GP',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA7lQm-bNg6t9Svd2j1tQRUDpk9NGDTLpo',
-    appId: '1:435692114668:android:ca2b3a87ca880e0f2f4bc9',
-    messagingSenderId: '435692114668',
-    projectId: 'appauthen-93de6',
-    storageBucket: 'appauthen-93de6.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC__LfOQ2HOfTNgkEQ3PjpByTOaygu0pdk',
-    appId: '1:435692114668:ios:c03f282c3ee800bb2f4bc9',
-    messagingSenderId: '435692114668',
-    projectId: 'appauthen-93de6',
-    storageBucket: 'appauthen-93de6.appspot.com',
-    iosBundleId: 'com.example.foodApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC__LfOQ2HOfTNgkEQ3PjpByTOaygu0pdk',
-    appId: '1:435692114668:ios:ac7f79488bf8c4702f4bc9',
-    messagingSenderId: '435692114668',
-    projectId: 'appauthen-93de6',
-    storageBucket: 'appauthen-93de6.appspot.com',
-    iosBundleId: 'com.example.foodApp.RunnerTests',
-  );
+          'DefaultFirebaseOptions are not supported for this 
 }
